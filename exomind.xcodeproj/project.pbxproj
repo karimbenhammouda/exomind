@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FB916E027CB906A004CA102 /* APIRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB916DF27CB906A004CA102 /* APIRoute.swift */; };
+		3FB916E227CB9104004CA102 /* APILog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB916E127CB9104004CA102 /* APILog.swift */; };
+		3FB916E427CB911F004CA102 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB916E327CB911F004CA102 /* WebService.swift */; };
+		3FB916E727CB9281004CA102 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3FB916E627CB9281004CA102 /* Alamofire */; };
+		3FB916EA27CB92D4004CA102 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB916E927CB92D4004CA102 /* Constants.swift */; };
+		3FB916EC27CB93A8004CA102 /* WebServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB916EB27CB93A8004CA102 /* WebServiceClient.swift */; };
+		3FB916EF27CB9804004CA102 /* JaugeProgressionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB916EE27CB9804004CA102 /* JaugeProgressionViewModel.swift */; };
+		3FB916F227CBA124004CA102 /* WeatherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB916F127CBA124004CA102 /* WeatherInfo.swift */; };
+		3FB916F427CBA168004CA102 /* Coord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB916F327CBA168004CA102 /* Coord.swift */; };
+		3FB916F627CBA1C4004CA102 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB916F527CBA1C4004CA102 /* Weather.swift */; };
+		3FB916F827CBA240004CA102 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB916F727CBA240004CA102 /* Main.swift */; };
+		3FB916FA27CBA2B5004CA102 /* Wind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB916F927CBA2B5004CA102 /* Wind.swift */; };
+		3FB916FC27CBA2F7004CA102 /* Clouds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB916FB27CBA2F7004CA102 /* Clouds.swift */; };
+		3FB916FE27CBA395004CA102 /* Sys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB916FD27CBA395004CA102 /* Sys.swift */; };
 		3FF24ED227CB45D500ECBDD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24ED127CB45D500ECBDD0 /* AppDelegate.swift */; };
 		3FF24ED427CB45D500ECBDD0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24ED327CB45D500ECBDD0 /* SceneDelegate.swift */; };
 		3FF24ED627CB45D500ECBDD0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24ED527CB45D500ECBDD0 /* HomeViewController.swift */; };
@@ -41,6 +55,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3FB916DF27CB906A004CA102 /* APIRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRoute.swift; sourceTree = "<group>"; };
+		3FB916E127CB9104004CA102 /* APILog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APILog.swift; sourceTree = "<group>"; };
+		3FB916E327CB911F004CA102 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		3FB916E927CB92D4004CA102 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3FB916EB27CB93A8004CA102 /* WebServiceClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceClient.swift; sourceTree = "<group>"; };
+		3FB916EE27CB9804004CA102 /* JaugeProgressionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JaugeProgressionViewModel.swift; sourceTree = "<group>"; };
+		3FB916F127CBA124004CA102 /* WeatherInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInfo.swift; sourceTree = "<group>"; };
+		3FB916F327CBA168004CA102 /* Coord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coord.swift; sourceTree = "<group>"; };
+		3FB916F527CBA1C4004CA102 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		3FB916F727CBA240004CA102 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		3FB916F927CBA2B5004CA102 /* Wind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wind.swift; sourceTree = "<group>"; };
+		3FB916FB27CBA2F7004CA102 /* Clouds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clouds.swift; sourceTree = "<group>"; };
+		3FB916FD27CBA395004CA102 /* Sys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sys.swift; sourceTree = "<group>"; };
 		3FF24ECE27CB45D500ECBDD0 /* exomind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exomind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF24ED127CB45D500ECBDD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FF24ED327CB45D500ECBDD0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FB916E727CB9281004CA102 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +115,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FB916DE27CB9050004CA102 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				3FB916DF27CB906A004CA102 /* APIRoute.swift */,
+				3FB916E127CB9104004CA102 /* APILog.swift */,
+				3FB916E327CB911F004CA102 /* WebService.swift */,
+				3FB916EB27CB93A8004CA102 /* WebServiceClient.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		3FB916E827CB92C0004CA102 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				3FB916E927CB92D4004CA102 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		3FB916ED27CB97EF004CA102 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3FB916EE27CB9804004CA102 /* JaugeProgressionViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3FB916F027CBA101004CA102 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3FB916F127CBA124004CA102 /* WeatherInfo.swift */,
+				3FB916F327CBA168004CA102 /* Coord.swift */,
+				3FB916F527CBA1C4004CA102 /* Weather.swift */,
+				3FB916F727CBA240004CA102 /* Main.swift */,
+				3FB916F927CBA2B5004CA102 /* Wind.swift */,
+				3FB916FB27CBA2F7004CA102 /* Clouds.swift */,
+				3FB916FD27CBA395004CA102 /* Sys.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		3FF24EC527CB45D400ECBDD0 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +181,9 @@
 			children = (
 				3FF24ED127CB45D500ECBDD0 /* AppDelegate.swift */,
 				3FF24ED327CB45D500ECBDD0 /* SceneDelegate.swift */,
+				3FB916F027CBA101004CA102 /* Models */,
+				3FB916E827CB92C0004CA102 /* Constants */,
+				3FB916DE27CB9050004CA102 /* WebService */,
 				3FF24F0927CB517D00ECBDD0 /* JaugeProgression */,
 				3FF24F0727CB49EF00ECBDD0 /* Home */,
 				3FF24F0427CB490900ECBDD0 /* Extensions */,
@@ -169,6 +241,7 @@
 		3FF24F0927CB517D00ECBDD0 /* JaugeProgression */ = {
 			isa = PBXGroup;
 			children = (
+				3FB916ED27CB97EF004CA102 /* ViewModels */,
 				3FF24F0A27CB51BD00ECBDD0 /* JaugeProgression.storyboard */,
 				3FF24F0C27CB51D500ECBDD0 /* JaugeProgressionViewController.swift */,
 			);
@@ -191,6 +264,9 @@
 			dependencies = (
 			);
 			name = exomind;
+			packageProductDependencies = (
+				3FB916E627CB9281004CA102 /* Alamofire */,
+			);
 			productName = exomind;
 			productReference = 3FF24ECE27CB45D500ECBDD0 /* exomind.app */;
 			productType = "com.apple.product-type.application";
@@ -264,6 +340,9 @@
 				fr,
 			);
 			mainGroup = 3FF24EC527CB45D400ECBDD0;
+			packageReferences = (
+				3FB916E527CB9281004CA102 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 3FF24ECF27CB45D500ECBDD0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -309,10 +388,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FB916EC27CB93A8004CA102 /* WebServiceClient.swift in Sources */,
+				3FB916E427CB911F004CA102 /* WebService.swift in Sources */,
 				3FF24EDC27CB45D500ECBDD0 /* exomind.xcdatamodeld in Sources */,
 				3FF24ED627CB45D500ECBDD0 /* HomeViewController.swift in Sources */,
+				3FB916F627CBA1C4004CA102 /* Weather.swift in Sources */,
 				3FF24F0627CB491E00ECBDD0 /* UIView+Utils.swift in Sources */,
+				3FB916FA27CBA2B5004CA102 /* Wind.swift in Sources */,
+				3FB916F427CBA168004CA102 /* Coord.swift in Sources */,
+				3FB916E227CB9104004CA102 /* APILog.swift in Sources */,
+				3FB916EA27CB92D4004CA102 /* Constants.swift in Sources */,
+				3FB916E027CB906A004CA102 /* APIRoute.swift in Sources */,
+				3FB916F827CBA240004CA102 /* Main.swift in Sources */,
+				3FB916F227CBA124004CA102 /* WeatherInfo.swift in Sources */,
 				3FF24F0D27CB51D500ECBDD0 /* JaugeProgressionViewController.swift in Sources */,
+				3FB916FE27CBA395004CA102 /* Sys.swift in Sources */,
+				3FB916EF27CB9804004CA102 /* JaugeProgressionViewModel.swift in Sources */,
+				3FB916FC27CBA2F7004CA102 /* Clouds.swift in Sources */,
 				3FF24ED227CB45D500ECBDD0 /* AppDelegate.swift in Sources */,
 				3FF24ED427CB45D500ECBDD0 /* SceneDelegate.swift in Sources */,
 			);
@@ -683,6 +775,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3FB916E527CB9281004CA102 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3FB916E627CB9281004CA102 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3FB916E527CB9281004CA102 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		3FF24EDA27CB45D500ECBDD0 /* exomind.xcdatamodeld */ = {

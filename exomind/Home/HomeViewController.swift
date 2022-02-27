@@ -18,8 +18,8 @@ class HomeViewController: UIViewController {
     }
     
     @IBAction func showJaugeProgression(_ sender: Any) {
-        let storyboard = UIStoryboard(name: "JaugeProgression", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "JaugeProgressionViewController")
+        let viewModel = JaugeProgressionViewModel()
+        let vc = JaugeProgressionViewController.instantiate(viewModel: viewModel)
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
