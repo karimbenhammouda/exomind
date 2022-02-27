@@ -18,6 +18,9 @@
 		3FF24EF627CB45E200ECBDD0 /* exomindUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24EF527CB45E200ECBDD0 /* exomindUITests.swift */; };
 		3FF24EF827CB45E200ECBDD0 /* exomindUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24EF727CB45E200ECBDD0 /* exomindUITestsLaunchTests.swift */; };
 		3FF24F0627CB491E00ECBDD0 /* UIView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24F0527CB491E00ECBDD0 /* UIView+Utils.swift */; };
+		3FF24F0B27CB51BD00ECBDD0 /* JaugeProgression.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF24F0A27CB51BD00ECBDD0 /* JaugeProgression.storyboard */; };
+		3FF24F0D27CB51D500ECBDD0 /* JaugeProgressionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24F0C27CB51D500ECBDD0 /* JaugeProgressionViewController.swift */; };
+		3FF24F1427CB89EE00ECBDD0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FF24F1627CB89EE00ECBDD0 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,10 @@
 		3FF24EF527CB45E200ECBDD0 /* exomindUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exomindUITests.swift; sourceTree = "<group>"; };
 		3FF24EF727CB45E200ECBDD0 /* exomindUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exomindUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3FF24F0527CB491E00ECBDD0 /* UIView+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Utils.swift"; sourceTree = "<group>"; };
+		3FF24F0A27CB51BD00ECBDD0 /* JaugeProgression.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = JaugeProgression.storyboard; sourceTree = "<group>"; };
+		3FF24F0C27CB51D500ECBDD0 /* JaugeProgressionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JaugeProgressionViewController.swift; sourceTree = "<group>"; };
+		3FF24F1527CB89EE00ECBDD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3FF24F1727CB8A3200ECBDD0 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +112,7 @@
 			children = (
 				3FF24ED127CB45D500ECBDD0 /* AppDelegate.swift */,
 				3FF24ED327CB45D500ECBDD0 /* SceneDelegate.swift */,
+				3FF24F0927CB517D00ECBDD0 /* JaugeProgression */,
 				3FF24F0727CB49EF00ECBDD0 /* Home */,
 				3FF24F0427CB490900ECBDD0 /* Extensions */,
 				3FF24F0827CB4A1D00ECBDD0 /* Resources */,
@@ -153,8 +161,18 @@
 				3FF24EE227CB45E100ECBDD0 /* Info.plist */,
 				3FF24EDF27CB45E100ECBDD0 /* LaunchScreen.storyboard */,
 				3FF24EDD27CB45E100ECBDD0 /* Assets.xcassets */,
+				3FF24F1627CB89EE00ECBDD0 /* Localizable.strings */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		3FF24F0927CB517D00ECBDD0 /* JaugeProgression */ = {
+			isa = PBXGroup;
+			children = (
+				3FF24F0A27CB51BD00ECBDD0 /* JaugeProgression.storyboard */,
+				3FF24F0C27CB51D500ECBDD0 /* JaugeProgressionViewController.swift */,
+			);
+			path = JaugeProgression;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +261,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 3FF24EC527CB45D400ECBDD0;
 			productRefGroup = 3FF24ECF27CB45D500ECBDD0 /* Products */;
@@ -261,7 +280,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF24F1427CB89EE00ECBDD0 /* Localizable.strings in Resources */,
 				3FF24EE127CB45E100ECBDD0 /* LaunchScreen.storyboard in Resources */,
+				3FF24F0B27CB51BD00ECBDD0 /* JaugeProgression.storyboard in Resources */,
 				3FF24EDE27CB45E100ECBDD0 /* Assets.xcassets in Resources */,
 				3FF24ED927CB45D500ECBDD0 /* Home.storyboard in Resources */,
 			);
@@ -291,6 +312,7 @@
 				3FF24EDC27CB45D500ECBDD0 /* exomind.xcdatamodeld in Sources */,
 				3FF24ED627CB45D500ECBDD0 /* HomeViewController.swift in Sources */,
 				3FF24F0627CB491E00ECBDD0 /* UIView+Utils.swift in Sources */,
+				3FF24F0D27CB51D500ECBDD0 /* JaugeProgressionViewController.swift in Sources */,
 				3FF24ED227CB45D500ECBDD0 /* AppDelegate.swift in Sources */,
 				3FF24ED427CB45D500ECBDD0 /* SceneDelegate.swift in Sources */,
 			);
@@ -345,6 +367,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		3FF24F1627CB89EE00ECBDD0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FF24F1527CB89EE00ECBDD0 /* en */,
+				3FF24F1727CB8A3200ECBDD0 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -352,6 +383,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -413,6 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";

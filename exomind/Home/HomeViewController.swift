@@ -16,5 +16,12 @@ class HomeViewController: UIViewController {
         // Do any additional setup after loading the view.
         nextButton.setRadius()
     }
+    
+    @IBAction func showJaugeProgression(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "JaugeProgression", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "JaugeProgressionViewController")
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
 }
 
