@@ -6,10 +6,11 @@
 //
 
 import Foundation
+import Alamofire
 
 class WebServiceClient {
     func getWeatherMap(lat: String, lon: String, completion: @escaping (Bool, WeatherInfo?) -> Void) {
-        let parameters = [Constants.ApiGetParametres.lat: lat, Constants.ApiGetParametres.lon: lon, Constants.ApiGetParametres.appid: Constants.ApiHeader.apiKey]
+        let parameters = [Constants.ApiGetParametres.lat: lat, Constants.ApiGetParametres.lon: lon]
         
         GetApiRequest(APIRoute.weatherMap.urlString, parameters, [], completion: { (finished, response) in
             if(finished)

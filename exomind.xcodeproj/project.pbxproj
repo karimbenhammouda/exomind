@@ -21,6 +21,9 @@
 		3FB916FA27CBA2B5004CA102 /* Wind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB916F927CBA2B5004CA102 /* Wind.swift */; };
 		3FB916FC27CBA2F7004CA102 /* Clouds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB916FB27CBA2F7004CA102 /* Clouds.swift */; };
 		3FB916FE27CBA395004CA102 /* Sys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB916FD27CBA395004CA102 /* Sys.swift */; };
+		3FB9170227CBCAB1004CA102 /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9170027CBCAB1004CA102 /* CityTableViewCell.swift */; };
+		3FB9170327CBCAB1004CA102 /* CityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FB9170127CBCAB1004CA102 /* CityTableViewCell.xib */; };
+		3FB9170627CBCCE8004CA102 /* CityTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9170527CBCCE8004CA102 /* CityTableViewModel.swift */; };
 		3FF24ED227CB45D500ECBDD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24ED127CB45D500ECBDD0 /* AppDelegate.swift */; };
 		3FF24ED427CB45D500ECBDD0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24ED327CB45D500ECBDD0 /* SceneDelegate.swift */; };
 		3FF24ED627CB45D500ECBDD0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24ED527CB45D500ECBDD0 /* HomeViewController.swift */; };
@@ -68,6 +71,9 @@
 		3FB916F927CBA2B5004CA102 /* Wind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wind.swift; sourceTree = "<group>"; };
 		3FB916FB27CBA2F7004CA102 /* Clouds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clouds.swift; sourceTree = "<group>"; };
 		3FB916FD27CBA395004CA102 /* Sys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sys.swift; sourceTree = "<group>"; };
+		3FB9170027CBCAB1004CA102 /* CityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableViewCell.swift; sourceTree = "<group>"; };
+		3FB9170127CBCAB1004CA102 /* CityTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CityTableViewCell.xib; sourceTree = "<group>"; };
+		3FB9170527CBCCE8004CA102 /* CityTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableViewModel.swift; sourceTree = "<group>"; };
 		3FF24ECE27CB45D500ECBDD0 /* exomind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exomind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF24ED127CB45D500ECBDD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FF24ED327CB45D500ECBDD0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -156,6 +162,24 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		3FB916FF27CBCA95004CA102 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3FB9170427CBCCCC004CA102 /* ViewModels */,
+				3FB9170027CBCAB1004CA102 /* CityTableViewCell.swift */,
+				3FB9170127CBCAB1004CA102 /* CityTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		3FB9170427CBCCCC004CA102 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3FB9170527CBCCE8004CA102 /* CityTableViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		3FF24EC527CB45D400ECBDD0 = {
 			isa = PBXGroup;
 			children = (
@@ -241,6 +265,7 @@
 		3FF24F0927CB517D00ECBDD0 /* JaugeProgression */ = {
 			isa = PBXGroup;
 			children = (
+				3FB916FF27CBCA95004CA102 /* Cell */,
 				3FB916ED27CB97EF004CA102 /* ViewModels */,
 				3FF24F0A27CB51BD00ECBDD0 /* JaugeProgression.storyboard */,
 				3FF24F0C27CB51D500ECBDD0 /* JaugeProgressionViewController.swift */,
@@ -363,6 +388,7 @@
 				3FF24EE127CB45E100ECBDD0 /* LaunchScreen.storyboard in Resources */,
 				3FF24F0B27CB51BD00ECBDD0 /* JaugeProgression.storyboard in Resources */,
 				3FF24EDE27CB45E100ECBDD0 /* Assets.xcassets in Resources */,
+				3FB9170327CBCAB1004CA102 /* CityTableViewCell.xib in Resources */,
 				3FF24ED927CB45D500ECBDD0 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,6 +416,8 @@
 			files = (
 				3FB916EC27CB93A8004CA102 /* WebServiceClient.swift in Sources */,
 				3FB916E427CB911F004CA102 /* WebService.swift in Sources */,
+				3FB9170227CBCAB1004CA102 /* CityTableViewCell.swift in Sources */,
+				3FB9170627CBCCE8004CA102 /* CityTableViewModel.swift in Sources */,
 				3FF24EDC27CB45D500ECBDD0 /* exomind.xcdatamodeld in Sources */,
 				3FF24ED627CB45D500ECBDD0 /* HomeViewController.swift in Sources */,
 				3FB916F627CBA1C4004CA102 /* Weather.swift in Sources */,

@@ -17,4 +17,12 @@ struct Constants {
         static let lon = "lon"
         static let appid = "appid"
     }
+    
+    struct waitUser {
+        static let download = "Nous téléchargeons les données…"
+        static let almostDone = "C’est presque fini…"
+        static let aFewSeconds = "Plus que quelques secondes avant d’avoir le résultat…"
+    }
 }
+
+

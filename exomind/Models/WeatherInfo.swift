@@ -10,12 +10,12 @@ import Foundation
 struct WeatherInfo: Decodable {
     let coord: Coord
     let weather: [Weather]
-    let base: String
-    let main: Main
+    let base: String?
+    //let main: Main
     let visibility: Double?
     let wind: Wind
     let clouds: Clouds
-    let dt: Int
+    let dt: Int?
     let sys: Sys
     let timezone: Int?
     let id: Int?

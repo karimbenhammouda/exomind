@@ -21,14 +21,14 @@ extension APIRoute: APIRouteBuilder {
     var baseURL: String {
         switch self {
         default:
-            return "https://openweathermap.org/"
+            return "https://api.openweathermap.org/"
         }
     }
     
     var path: String {
         switch self {
         case .weatherMap:
-            return "data/2.5/weather?"
+            return String(format: "%@%@", "data/2.5/weather?appid=", Constants.ApiHeader.apiKey)
         }
     }
 
